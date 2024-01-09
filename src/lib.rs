@@ -34,5 +34,6 @@ mod tests {
         assert_eq!(board.pieces[7][4] & 24, piece::WHITE_TEAM);
 
         assert_eq!(board.pieces[7][3] & 7, piece::QUEEN);
+        assert_eq!(board.pieces[7][3] & 24, piece::WHITE_TEAM);
     }
 }

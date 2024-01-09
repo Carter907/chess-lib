@@ -1,5 +1,6 @@
 pub struct Board {
     pub pieces: [[u8; 8]; 8],
+    pub turn: bool,
 }
 
 impl Board {
